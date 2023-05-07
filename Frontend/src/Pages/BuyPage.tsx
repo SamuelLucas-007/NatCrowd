@@ -33,7 +33,7 @@ export const BuyPage = () => {
         <img src={img6}/>
         <img src={img7}/>
         <h4 className="text-black font-Roboto text-3xl pb-5 pt-5">Contract address CarbonCoin(OCO): </h4>
-        <h4 className="text-black font-Roboto text-3xl pb-5 pt-5">0x905E8Af8542C208c67f80FA5331363b47578F42D</h4>
+        <h4 className="text-black font-Roboto text-3xl pb-5 pt-5">0x31c6FD01695a90C2e034CCfaF4273eb07ac5F794</h4>
         <img src={img8}/>
         <h4 className="text-black font-Roboto text-3xl mb-5 pt-5">Sixth Step: Ready to swap.</h4>
         <img src={img9} className="mb-10"/>
