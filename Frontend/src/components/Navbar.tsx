@@ -61,21 +61,21 @@ export const Navbar = () => {
               className="font-Roboto block font-medium text-lg lg:inline-block lg:mt-0 text-white hover:text-green-400">
               Buy
           </Link>
-            {/* {isMetamaskInstalled ? (
+            {isMetamaskInstalled ? (
               <button 
                 className="mr-10 w-40 h-14 font-Roboto font-medium text-lg text-white border-black border-2 bg-orange-400 rounded-2xl flex items-center justify-center hover:text-white"
                 onClick={connectWallet}>
                 Connected
 
               </button>
-            ) :  */}
+            ) : 
             <button 
               className="mr-10 w-80 h-14 px-8 font-Roboto font-medium text-lg text-white border-black border-2 bg-orange-400 rounded-2xl flex items-center justify-between hover:text-white"
               onClick={connectWallet}>
                 <img src={logoWallet} className="w-16 pr-4" alt="" />
                 <p className="font-Roboto text-lg">Connect to Metamask</p>
             </button>
-            {/* } */}
+            }
         </div>
       </div>
       
